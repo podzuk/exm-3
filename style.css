@@ -1,0 +1,654 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #aaa5c0;
+  background-image: url(images/bg.jpg);
+  height: 1070px;
+}
+
+.header__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1115px;
+  height: 1070px;
+}
+
+.header__menu {
+  height: 135px;
+  z-index: 100;
+}
+
+.header__text {
+  margin-top: 240px;
+}
+
+.header__title {
+  font-size: 72px;
+  color: #fefefb;
+  font-family: "ProximaNova";
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+}
+
+.header__sub-title {
+  color: white;
+  font-size: 72px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.2;
+  font-style: oblique;
+}
+
+@media screen and (max-width: 1170px) {
+  .header__content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__title {
+    font-size: 42px;
+  }
+  .header__sub-title {
+    font-size: 22px;
+  }
+  .header .navbar-brand {
+    margin-left: 20px;
+  }
+  .header .navbar-collapse {
+    background-color: #aaa5c0;
+    opacity: 0.6;
+  }
+}
+
+.col-lg-4 {
+  padding: 0;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #ebebeb;
+  height: 800px;
+}
+
+.about__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  height: 800px;
+  padding: 0;
+  background-color: #ebebeb;
+}
+
+.about__img {
+  width: 97%;
+  height: 69.5%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.about__text {
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  color: #665f60;
+  line-height: 1.2;
+  padding-left: 9.7%;
+  margin-top: 16.8%;
+}
+
+.about__button {
+  margin-top: 14%;
+  margin-left: 34.5%;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  color: #7d7a7c;
+  font-style: italic;
+  line-height: 1.2;
+  border-width: 1px;
+  border-color: #7d7a7c;
+  border-style: solid;
+  width: 30%;
+  height: 8.5%;
+}
+
+@media screen and (max-width: 1170px) {
+  .about__content {
+    width: 100%;
+  }
+  .about__img {
+    height: 100%;
+    width: 40%;
+    left: 0;
+    right: 0;
+  }
+  .about__text {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    color: #665f60;
+    line-height: 1.2;
+    padding-left: 5%;
+    margin-top: 5%;
+  }
+  .about__button {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+.services {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #ebebeb;
+}
+
+.services__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  background-color: #ebebeb;
+}
+
+.services__item_grey {
+  background-color: #dbdbdb;
+  height: 400px;
+}
+
+.services__item_blue {
+  background-color: #c1bfd9;
+  height: 400px;
+}
+
+.services__item_white {
+  background-color: #ebebeb;
+  height: 400px;
+}
+
+.services__item6 {
+  height: 400px;
+}
+
+@media screen and (max-width: 1170px) {
+  .services__content {
+    width: 100%;
+  }
+}
+
+.col-4 {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.col-xl-4 {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.col-md-6 {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.work {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #b5b2d6;
+  background-image: url(images/bg2.jpg);
+  height: 1000px;
+}
+
+.work__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 1170px) {
+  .work__content {
+    width: 100%;
+  }
+}
+
+.work__header {
+  position: relative;
+  width: 100%;
+  height: 17%;
+  margin-bottom: 40px;
+}
+
+.work__icon {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.work__title {
+  font-family: "ProximaNova";
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 36px;
+  color: #fefcfd;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.work__button {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  margin: auto;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-style: italic;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+.work__slider {
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.work__slider_img {
+  width: 500px;
+  height: 600px;
+}
+
+.slick-dots {
+  padding-top: 100px;
+}
+
+.team {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #ebebeb;
+  height: 815px;
+}
+
+.team__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  height: 815px;
+}
+
+@media screen and (max-width: 1170px) {
+  .team__content {
+    width: 100%;
+  }
+}
+
+.team__header {
+  position: relative;
+  width: 100%;
+  height: 22%;
+  margin-bottom: 40px;
+}
+
+.team__icon {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.team__title {
+  font-family: "ProximaNova";
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 36px;
+  color: #665f60;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team__slider {
+  width: 90%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.team__slider_img {
+  width: 200px;
+  height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contacts {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 900px;
+}
+
+.contacts__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/map.jpg);
+  width: 1170px;
+  height: 900px;
+}
+
+.contacts__header {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 40px;
+}
+
+.contacts__icon {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.contacts__title {
+  font-family: "ProximaNova";
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 36px;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.contacts__form {
+  margin-top: 220px;
+  width: 73%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
+}
+
+.contacts__name {
+  width: 48%;
+  height: 50px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  line-height: 1;
+  padding-left: 10px;
+}
+
+.contacts__gmail {
+  margin-left: 4%;
+  width: 48%;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  line-height: 1;
+  padding-left: 10px;
+}
+
+.contacts__text {
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  line-height: 1;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1170px) {
+  .contacts__content {
+    width: 100%;
+  }
+}
+
+.contacts__button {
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  background-color: #9f9acf;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  width: 35%;
+  height: 70px;
+  letter-spacing: 3px;
+}
+
+.contacts__scroll {
+  position: absolute;
+  margin: auto;
+  bottom: 20px;
+  right: 20px;
+}
+
+.contacts__adress {
+  background-color: #dad8e3;
+  opacity: 0.8;
+  position: absolute;
+  right: 15px;
+}
+
+.contacts__adress--lo {
+  top: 315px;
+}
+
+.contacts__foto {
+  width: 95px;
+  height: 95px;
+}
+
+.contacts__adr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 255px;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  color: #665f60;
+  line-height: 1.2;
+  display: none;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #9f9acf;
+  height: 185px;
+  z-index: order;
+}
+
+.footer__content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #9f9acf;
+  width: 1170px;
+  height: 185px;
+}
+
+.footer__license {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85px;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  line-height: 1.2;
+  padding-left: 20px;
+}
+
+.footer__social_networks {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__items {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+@media screen and (max-width: 1170px) {
+  .footer__content {
+    width: 100%;
+  }
+}
+
+.about__button:hover {
+  font-size: 21px;
+  color: white;
+  background-color: gray;
+}
+
+.work__button:hover {
+  font-size: 21px;
+  color: white;
+  background-color: gray;
+  border: none;
+}
+
+.contacts__button:hover {
+  color: black;
+  font-size: 21px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 24px;
+  font-family: "ProximaNova";
+  text-transform: uppercase;
+  line-height: 2.501;
+  padding-left: 23px !important;
+  padding-right: 5px !important;
+}
+
+.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=style.css.map */
